@@ -1,0 +1,146 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LKSTORE</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0d0d0d;
+      color: white;
+    }/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: linear-gradient(90deg, #8B0000, #000000);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff1a1a;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ff1a1a;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: radial-gradient(circle, #2b0000, #000000);
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #ff1a1a;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #ccc;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #ff1a1a;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background: #b30000;
+}
+
+/* PRODUTOS */
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  background: #1a1a1a;
+  border: 1px solid #ff1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card h3 {
+  color: #ff1a1a;
+}
+
+.card button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  background: #ff1a1a;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.card button:hover {
+  background: #b30000;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #000;
+  border-top: 1px solid #ff1a1a;
+  color: #777;
+}
+
+  </style>
+</head>
+<body>  <header>
+    <div class="logo">LKSTORE</div>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Produtos</a>
+      <a href="#">Login</a>
+    </nav>
+  </header>  <section class="hero">
+    <h1>Bem-vindo à LKSTORE</h1>
+    <p>Sua loja de streaming e conteúdos digitais</p>
+    <button class="btn">Explorar Agora</button>
+  </section>  <section class="products">
+    <div class="card">
+      <h3>Produto 1</h3>
+      <p>Acesso streaming premium</p>
+      <button>Comprar</button>
+    </div><div class="card">
+  <h3>Produto 2</h3>
+  <p>Conteúdo exclusivo</p>
+  <button>Comprar</button>
+</div>
+
+<div class="card">
+  <h3>Produto 3</h3>
+  <p>Assinatura mensal</p>
+  <button>Comprar</button>
+</div>
+
+  </section>  <footer>
+    © 2026 LKSTORE - Todos os direitos reservados
+  </footer></body>
+</html>
